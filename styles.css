@@ -1,0 +1,111 @@
+#name{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    border: 0px; 
+}
+
+
+#designation{
+    font-size: larger;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#projectimg{
+    width: 300px;
+    height: 300px;
+}
+
+#project{
+    width: 300px;
+    height: 600px;
+}
+
+#me{
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.4s ease;
+}
+
+#me:hover{
+    transform: scale(2);
+    font-size: 27px;
+}
+
+#pj{
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.4s ease;
+}
+
+#pj:hover{
+    transform: scale(2);
+    font-size: 27px;
+}
+
+#con{
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.4s ease;
+}
+
+#con:hover{
+    transform: scale(2);
+    font-size: 27px;
+}
+
+#resume{
+    color: brown;
+    text-decoration: none;
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(45deg, #ae3fc4, #e759a5, #558ddb, #3b5998);
+    background-size: 300% 300%;
+    animation: gradientAnimation 15s ease infinite;
+
+   
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+.section{
+    text-align: center;
+    justify-content: center;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+}
+
+#project{
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    padding: 50px;
+}
+
+#wholeproject{
+    display: flex;
+}
+
+#projectimg{
+    transition: box-shadow 0.5s ease-in;
+}
+
+#projectimg:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.5);
+}
+
